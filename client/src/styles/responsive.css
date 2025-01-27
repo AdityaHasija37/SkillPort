@@ -1,0 +1,50 @@
+/* Custom responsive styles */
+@media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px;
+    }
+  
+    .filter-container {
+      margin-bottom: 20px;
+    }
+  
+    .course-detail-header {
+      flex-direction: column;
+    }
+  
+    .course-detail-header .course-image {
+      margin-bottom: 20px;
+    }
+  
+    .lesson-list {
+      padding-left: 0;
+    }
+  }
+  
+  /* Adjust font sizes for smaller screens */
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.75rem;
+    }
+  
+    h3 {
+      font-size: 1.5rem;
+    }
+  
+    .card-title {
+      font-size: 1.25rem;
+    }
+  }
+  
+  /* Ensure buttons are full width on small screens */
+  @media (max-width: 576px) {
+    .btn-responsive {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
